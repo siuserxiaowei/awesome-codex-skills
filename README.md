@@ -31,7 +31,6 @@
 
 A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 
-
 > **Want skills that do more than generate text?** Codex can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how →](./connect/)
 
 ---
@@ -44,6 +43,71 @@ A curated list of practical Codex skills for automating workflows across the Cod
 git clone https://github.com/ComposioHQ/awesome-codex-skills.git
 cd awesome-codex-skills
 # Install one or more skills into $CODEX_HOME/skills (defaults to ~/.codex/skills)
+
+<!-- SIUSER-REPO-GUIDE:START -->
+## Repository Guide
+
+### What This Repository Does
+
+Codex Skills 精选清单（fork）：整理可复用的 Codex CLI/API 自动化技能参考。
+
+English summary: Forked curated list of practical Codex skills for automating workflows across Codex CLI and API.
+
+### Online Entry Points
+
+- GitHub repository: https://github.com/siuserxiaowei/awesome-codex-skills
+- Live / GitHub Pages: not configured for this repository
+- Default branch: `master`
+- Primary language: `Python`
+- Repository type: fork / reference repository
+
+### How To Read / Learn This Repository
+
+1. 先读本 README，确认项目目标、在线入口和本地运行方式。
+2. 按仓库目录从入口文件、数据文件、脚本和文档依次阅读。
+3. 如果要修改内容，先小范围改动，再运行本 README 中的验证命令。
+
+### Clone This Repository
+
+```bash
+git clone https://github.com/siuserxiaowei/awesome-codex-skills.git
+cd awesome-codex-skills
+```
+
+### Run Or View Locally
+
+这个仓库没有检测到固定本地运行命令。通常可以直接阅读 README、源码、数据文件或线上页面；如需运行，请先查看仓库内的脚本和配置文件。
+
+### Repository Map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | 项目入口说明，先读这里。 |
+| `agent-deep-links/` | 项目目录。 |
+| `brand-guidelines/` | 项目目录。 |
+| `canvas-design/` | 项目目录。 |
+| `changelog-generator/` | 项目目录。 |
+| `codebase-migrate/` | 项目目录。 |
+| `codex_cover_image.png` | 项目文件。 |
+| `competitive-ads-extractor/` | 项目目录。 |
+| `composio-skills/` | 项目目录。 |
+| `connect-apps/` | 项目目录。 |
+| `connect/` | 项目目录。 |
+| `content-research-writer/` | 项目目录。 |
+
+### Maintenance Notes
+
+- Keep this README in sync when the project purpose, live link, or run commands change.
+- Prefer small, focused commits when changing code, data, or generated pages.
+- Run the relevant build or validation command before publishing changes.
+- If this is a generated/static archive, update the source data first, then regenerate the public files.
+
+### Privacy And Safety
+
+- Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
+- Keep private source material out of public GitHub Pages output unless it has been explicitly cleared for publication.
+- When in doubt, run a quick secret scan such as `rg -n "token|secret|password|access_key|authorization"` before pushing.
+<!-- SIUSER-REPO-GUIDE:END -->
 python skill-installer/scripts/install-skill-from-github.py --repo ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions
 ```
 
